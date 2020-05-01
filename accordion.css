@@ -1,0 +1,27 @@
+/*accordion wrapper*/
+#accordion-basic{
+    border: solid 1px #eee;
+}
+
+/*accordion headers*/
+.accordion-head{
+    background: #3242a8;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.accordion-head:hover{
+    cursor: pointer;
+}
+
+/*accordion body*/
+.accordion-body{
+    display: none;
+    padding: 10px;
+    background: #f2f2f2;
+}
+
+.accordion-body.open{
+    display: block;
+}
